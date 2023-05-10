@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment 2</title>
+</head>	
+<body>
+	<script src="script.js"></script>
+    <label for="Country">Select a country：</label>
+    <select id="Country" name="Country" onchange="updateText()">
+        <option value="China">China</option>
+        <option value="France">France</option>
+        <option value="Russia">Russia</option>
+		<option value="UK">UK</option>
+		<option value="USA">USA</option>
+    </select>
+    <br>
+    <label for="result">The country has the following holidays：</label>
+    <ul id="result"></ul>
+    <br>
+    <div>Enter your City</div>
+    <input id="City" placeholder="Enter City">
+    <br>
+    <button onclick="fn1()" id="submit">Submit</button>
+    <div class="weather"></div>
+</body> 
+</html>  
